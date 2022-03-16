@@ -18,7 +18,7 @@ class Avatar extends Component {
       country : "Sri lanka"
     }
   } 
-  render() { 
+  render() {
     return (
         <div className="avatar">
           <img src={this.state.profileImgUrl} className="img-thumbnail" alt="Profile image" id="profile-img"></img>

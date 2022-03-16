@@ -5,10 +5,15 @@ import Avatar from './components/Avatar';
 import Navigation from './components/Navigation';
 import ArticleMenuItem from './components/ArticleMenuItem.js';
 
+function getJsonData() {
+  const usersData = require('./json/users.json');
+  console.log(usersData);
+}
+
 function App() {
   return (
     <React.Fragment>
-      
+      {/* {getJsonData()}      */}
       <Navigation />
       <div className="container-fluid">
           <div className="row">
