@@ -1,11 +1,14 @@
 #profile-col {
-  border: 1px solid #000;
+  border-right: 1px solid #ddd;
+  background-color: #eee;
+  /* border: 1px solid #000; */
 }
 
 #article-col {
-  border: 1px solid #000;
+  border-right: 1px solid #ddd;
+  /* border: 1px solid #000; */
 }
 
 #article-menu-col {
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
 }
