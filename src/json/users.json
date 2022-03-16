@@ -1,0 +1,76 @@
+{
+"users" : [
+  {
+    "_id" : "1",
+    "firstName" : "Romin",
+    "lastName" : "Irani",
+    "email" : "romin.k.irani@gmail.com",
+    "password" : "1111",
+    "birthday" : "1965-12-05",
+    "postalCode" : "36548",
+    "profileImgUrl" : "https://picsum.photos/id/1005/200",
+    "telMain" : "408-1234567",
+    "telOther" : "456-3650",
+    "address" : {
+      "street" : "Nightmare Alley",
+      "town" : "Ghost Town",
+      "state" : "Dark State",
+      "country" : "USA"
+    }
+  },
+  {
+    "_id" : "2",
+    "firstName" : "Neil",
+    "lastName" : "Irani",
+    "email" : "neilrirani@gmail.com",
+    "password" : "2222",
+    "birthday" : "2000-01-25",
+    "postalCode" : "85365",
+    "profileImgUrl" : "https://picsum.photos/id/1005/200",
+    "telMain" : "365-2468",
+    "telOther" : "555-5555",
+    "address" : {
+      "street" : "Park Road",
+      "town" : "Down Town",
+      "state" : "New York",
+      "country" : "USA"
+    }
+  },
+  {
+    "_id" : "3",
+    "firstName" : "Tom",
+    "lastName" : "Hanks",
+    "email" : "tomhanks@gmail.com",
+    "password" : "3333",
+    "birthday" : "1954-08-16",
+    "postalCode" : "22365",
+    "profileImgUrl" : "https://picsum.photos/id/1012/200",
+    "telMain" : "897-3648",
+    "telOther" : "000-3659",
+    "address" : {
+      "street" : "Union Ave",
+      "town" : "Rutherford",
+      "state" : "California",
+      "country" : "USA"
+    }
+  },
+  {
+    "_id" : "4",
+    "firstName" : "Johnny",
+    "lastName" : "Depp",
+    "email" : "johnny@gmail.com",
+    "password" : "4444",
+    "birthday" : "1992-03-05",
+    "postalCode" : "44698",
+    "profileImgUrl" : "https://picsum.photos/id/237/200",
+    "telMain" : "898-4568",
+    "telOther" : "333-5687",
+    "address" : {
+      "street" : "Allwood Road",
+      "town" : "Clifton",
+      "state" : "Texas",
+      "country" : "USA"
+    }
+  } 
+]
+}
