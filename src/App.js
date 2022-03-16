@@ -25,9 +25,6 @@ function App() {
             </div>
             <div className="col-md-6" id="article-col">
               <ArticleCard article={article}/>
-              <ArticleCard />
-              <ArticleCard />
-              <ArticleCard />
             </div>
             <div className="col-md-4" id="article-menu-col">
               <div className="list-group">

@@ -12,17 +12,17 @@ const UserInfo = (props) => {
           <div className="avatar-img-container">
             <Avatar profileImgUrl={profileImgUrl}/>
           </div>
-          <div className="info">
+          <div className="info text-wrap ">
             <div className="title ">
               <a className="text-decoration-none text-dark" target="_black" href="">{firstName} {lastName}</a>
             </div>
             <div className="desc">{email}</div>
             <div className="desc">{telMain}</div>
-            <div className="desc">{postalCode}</div>
             <div className="desc">{address.street}</div>
             <div className="desc">{address.town}</div>
             <div className="desc">{address.state}</div>
             <div className="desc">{address.country}</div>
+            <div className="desc">{postalCode}</div>
           </div>
         </div>
       </div>
