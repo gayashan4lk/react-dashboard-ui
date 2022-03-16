@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Avatar from './components/Avatar';
 import Navigation from './components/Navigation';
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
         <div className="container">
           <div className="row">
             <div className="col-md-3" id="profile-col">
-              <h1>Profile</h1>
+              <Avatar />
             </div>
             <div className="col-md-6" id="article-col">
               <h1>article</h1>
