@@ -15,9 +15,13 @@ function App() {
   const article = articleData.articles[0];
   console.log(article);
 
+  const numbers = [1, 2, 3, 4, 5];
+  const listItems = numbers.map((number) => <li>{number}</li>);
+
   return (
     <React.Fragment>
       <Navigation />
+      <ul>{listItems}</ul>
       <div className="container-fluid">
           <div className="row">
             <div className="col-md-2" id="profile-col">
