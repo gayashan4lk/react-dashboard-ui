@@ -3,25 +3,30 @@ import './App.css';
 import ArticleCard from './components/ArticleCard';
 import Avatar from './components/Avatar';
 import Navigation from './components/Navigation';
+import ArticleMenuItem from './components/ArticleMenuItem.js';
 
 function App() {
   return (
     <React.Fragment>
       <div className="container-fluid">
         <Navigation />
-        <div className="container">
           <div className="row">
-            <div className="col-md-3" id="profile-col">
+            <div className="col-md-2" id="profile-col">
               <Avatar />
             </div>
             <div className="col-md-6" id="article-col">
               <ArticleCard />
             </div>
-            <div className="col-md-3" id="article-menu-col">
-              <h1>article menu</h1>
+            <div className="col-md-4" id="article-menu-col">
+              <div className="list-group">
+                <ArticleMenuItem />
+                <ArticleMenuItem />
+                <ArticleMenuItem />
+                <ArticleMenuItem />
+              </div>
             </div>
           </div>
-        </div>
+        
       </div>
     </React.Fragment>
   );
