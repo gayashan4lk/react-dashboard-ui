@@ -4,24 +4,27 @@ import ArticleCard from './components/ArticleCard';
 import Avatar from './components/Avatar';
 import Navigation from './components/Navigation';
 import ArticleMenuItem from './components/ArticleMenuItem.js';
-
-function getJsonData() {
-  const usersData = require('./json/users.json');
-  console.log(usersData);
-}
+import UserInfo from './components/UserInfo';
 
 function App() {
+  const usersData = require('./json/users.json');
+  const user = usersData.users[0];
+  console.log(user);
+
+  const articleData = require('./json/articles.json');
+  const article = articleData.articles[0];
+  console.log(article);
+
   return (
     <React.Fragment>
-      {/* {getJsonData()}      */}
       <Navigation />
       <div className="container-fluid">
           <div className="row">
             <div className="col-md-2" id="profile-col">
-              <Avatar />
+              <UserInfo user={user} />
             </div>
             <div className="col-md-6" id="article-col">
-              <ArticleCard />
+              <ArticleCard article={article}/>
               <ArticleCard />
               <ArticleCard />
               <ArticleCard />

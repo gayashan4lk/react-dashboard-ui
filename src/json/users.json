@@ -71,6 +71,23 @@
       "state" : "Texas",
       "country" : "USA"
     }
+  },
+  {
+    "firstName" : "Leonardo",
+    "lastName" : "DaVinci",
+    "email" : "test@test.com",
+    "password" : "000000000",
+    "birthday" : "1956-05-12",
+    "postalCode" : "654898",
+    "profileImgUrl" : "https://picsum.photos/id/1025/200",
+    "telMain" : "+94112564897",
+    "telOther" : "00000000",
+    "address" : {
+      "street" : "Nightmare alley",
+      "town" : "ghost town",
+      "state" : "dark state",
+      "country" : "Sri lanka"
+    }
   } 
 ]
 }
