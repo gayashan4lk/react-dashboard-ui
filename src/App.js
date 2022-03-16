@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import ArticleCard from './components/ArticleCard';
 import Avatar from './components/Avatar';
 import Navigation from './components/Navigation';
 
@@ -14,7 +15,7 @@ function App() {
               <Avatar />
             </div>
             <div className="col-md-6" id="article-col">
-              <h1>article</h1>
+              <ArticleCard />
             </div>
             <div className="col-md-3" id="article-menu-col">
               <h1>article menu</h1>
